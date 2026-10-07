@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installing Servalan
+    url: https://github.com/citizenfish/servalan_releases/blob/main/docs/install.md
+    about: Getting past the Windows or macOS warning on first launch.
+  - name: How to get a free OS key
+    url: https://github.com/citizenfish/servalan_releases/blob/main/docs/os-key.md
+    about: Setting up Ordnance Survey maps.

@@ -1,0 +1,28 @@
+name: An idea
+description: Something Servalan should do, or do differently.
+labels: ["idea", "from users"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Servalan to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+      description: The ride or walk you were planning, and what got in the way.
+    validations:
+      required: true
+  - type: dropdown
+    id: how
+    attributes:
+      label: How do you mostly get about?
+      options:
+        - Bikepacking, multi-day
+        - Gravel or day rides
+        - Cycle touring
+        - Backpacking or long-distance walking
+        - Day walks
+        - Something else

@@ -1,0 +1,54 @@
+name: Something's wrong
+description: Servalan did something unexpected, showed a wrong figure, or crashed.
+labels: ["bug", "from users"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Issues here are public, so please don't include your OS key or anything private.
+  - type: input
+    id: version
+    attributes:
+      label: Servalan version
+      description: In About Servalan (Help menu on Windows, Servalan menu on macOS), or at the foot of Settings.
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Your computer
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: Which version of Windows or macOS?
+      placeholder: e.g. macOS 15.4, Windows 11 24H2
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do?
+      description: Step by step, so we can do the same.
+      placeholder: |
+        1. Opened a GPX Route
+        2. Clicked the height chart at about 40 km
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or a GPX file
+      description: Drag files here. Only share a route if you're happy for it to be public.
