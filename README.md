@@ -1,6 +1,6 @@
 # Servalan
 
-Servalan is a desktop app for planning bikepacking and walking routes. You draw a multi-day route on a map and see its heights, climbs and stops while you draw it. You can also open your own GPX files.
+Servalan is a desktop app for planning bikepacking and walking routes. You draw a multi-day route on a map and see its heights, climbs and route points while you draw it. You can also open your own GPX files.
 
 This repository holds **Servalan's releases and user guides**, and it is where you can **report a problem or suggest something**. The app's source code is not here.
 
@@ -11,13 +11,21 @@ This repository holds **Servalan's releases and user guides**, and it is where y
 Download the latest installer from **[Releases](../../releases)**:
 
 - **macOS** (Apple silicon, macOS 14 or later): `Servalan-<version>-macos-arm64.dmg`
-- **Windows:** coming soon.
+- **Windows** (64-bit Windows 10 or 11): `Servalan-<version>-windows-x64.exe`
 
-The feedback builds are not signed yet, so macOS will warn you the first time you open Servalan. [Installing Servalan](docs/install.md) shows how to get past the warning.
+The feedback builds are not signed yet, so macOS and Windows will warn you the first time you open Servalan. [Installing Servalan](docs/install.md) shows how to get past the warning.
 
-## What's in the current release (0.1.0)
+## What's in the current release (0.1.1)
 
-0.1.0 is the first feedback build, for Macs with Apple silicon.
+0.1.1 is the second feedback build, for Macs with Apple silicon and for Windows.
+
+**New in 0.1.1,** from your feedback on 0.1.0:
+
+- **Show another route alongside** from your own saved routes, or straight from a GPX Route on your computer.
+- **Route points** instead of stops, and Pin is taken off the screens.
+- **A cleaner look** for the buttons, lists and tabs, in light and dark.
+
+**Also in this build,** from 0.1.0:
 
 - **Open a GPX route** and explore it on the map and its height chart, with distance markers, climb, gradient colours and a time estimate.
 - **Draw a new route** in straight lines between points. Heights come in the background from open terrain data.
@@ -30,15 +38,8 @@ The feedback builds are not signed yet, so macOS will warn you the first time yo
 
 ## What's not in it yet, but planned
 
-**Next update (0.1.1),** from your feedback on 0.1.0:
+These are planned, roughly in this order. There are no dates yet.
 
-- Show another route alongside from your own saved routes, or straight from a GPX file.
-- Points along a route are called **route points**, and Pin is taken off the screens.
-- A cleaner look for the buttons, lists and tabs, in light and dark.
-
-**Later.** These are planned, roughly in this order. There are no dates yet.
-
-- **Windows.** A Windows build is coming.
 - **Following paths.** The line follows real paths and tracks instead of straight lines. It keeps to rights of way, and never sends you down a footpath without saying so.
 - **More maps.** A cycle map, satellite and terrain views, overlays such as hill shading and rights of way, and maps you can save for use offline.
 - **Places, times and days.** Cafés, shops, water, campsites and more along your route. Arrival times at your own pace, and a trip split into days.

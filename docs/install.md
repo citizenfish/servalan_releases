@@ -1,6 +1,6 @@
 # Installing Servalan
 
-Download the installer for your computer from [Releases](../../../releases). Servalan runs on macOS now, and on Windows soon. It needs an internet connection for its maps and for heights on routes you draw.
+Download the installer for your computer from [Releases](../../../releases). Servalan runs on Macs with Apple silicon and on 64-bit Windows 10 or 11. It needs an internet connection for its maps and for heights on routes you draw.
 
 ## Why you'll see a warning
 
@@ -8,9 +8,12 @@ The feedback builds aren't signed yet. A signed app carries a certificate that t
 
 ## Windows
 
-1. Double-click `Servalan-<version>-windows.exe`.
+Servalan needs 64-bit Windows 10 or 11. It installs just for you, so it doesn't ask for an administrator's password.
+
+1. Double-click `Servalan-<version>-windows-x64.exe`.
 2. If Windows says **"Windows protected your PC"**, choose **More info**, then **Run anyway**.
-3. Follow the installer's steps. Servalan is then in the Start menu.
+3. Follow the installer's steps. You can tick **Create a desktop shortcut** if you want one.
+4. Servalan is then in the Start menu. Open it from there.
 
 ## macOS
 
@@ -31,7 +34,8 @@ Download the new installer from Releases and install it over the old one. Your r
 
 ## Removing Servalan
 
-- **Windows:** Settings, then Apps, then Servalan, then Uninstall.
+- **Windows 11:** Settings, then Apps, then **Installed apps**. Find Servalan, choose the **…** button, then **Uninstall**.
+- **Windows 10:** Settings, then Apps, then **Apps & features**. Choose Servalan, then **Uninstall**.
 - **macOS:** drag Servalan from Applications to the Bin.
 
 Removing the app doesn't remove your routes. Before you remove it, you can back them up: Settings, then Your data, then Back up library.
