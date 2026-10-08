@@ -25,6 +25,8 @@ The feedback builds are not signed yet, so macOS will warn you the first time yo
 
 [Open an issue](../../issues/new/choose) to report a problem or suggest an idea. Please search the existing issues first, in case someone has already raised it.
 
+**No GitHub account?** Use the [feedback form](https://forms.gle/n2zXrZZaZMspB5qz6) instead: you don't need to sign in to GitHub.
+
 ## Licences
 
 Servalan includes open-source software and open data. See [Third-party notices](THIRD-PARTY-NOTICES.md).

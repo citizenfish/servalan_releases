@@ -2,6 +2,8 @@
 
 [Open an issue](../../../issues/new/choose) and choose **Something's wrong** or **An idea**.
 
+**No GitHub account?** Use the [feedback form](https://forms.gle/n2zXrZZaZMspB5qz6) instead. The details below help just as much there.
+
 These details help us most:
 
 - **Your Servalan version.** It's in **About Servalan**: in the Help menu on Windows, or the Servalan menu on macOS. It's also at the foot of Settings.
