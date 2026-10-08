@@ -10,10 +10,10 @@ This repository holds **Servalan's releases and user guides**, and it is where y
 
 Download the latest installer from **[Releases](../../releases)**:
 
-- **Windows:** `Servalan-<version>-windows.exe`
-- **macOS:** `Servalan-<version>-macos.dmg`
+- **macOS** (Apple silicon, macOS 14 or later): `Servalan-<version>-macos-arm64.dmg`
+- **Windows:** coming soon.
 
-The feedback builds are not signed yet, so Windows and macOS will warn you the first time you open Servalan. [Installing Servalan](docs/install.md) shows how to get past the warning.
+The feedback builds are not signed yet, so macOS will warn you the first time you open Servalan. [Installing Servalan](docs/install.md) shows how to get past the warning.
 
 ## Guides
 

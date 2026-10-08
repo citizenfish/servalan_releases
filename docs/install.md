@@ -1,6 +1,6 @@
 # Installing Servalan
 
-Download the installer for your computer from [Releases](../../../releases). Servalan runs on Windows and macOS. It needs an internet connection for its maps and for heights on routes you draw.
+Download the installer for your computer from [Releases](../../../releases). Servalan runs on macOS now, and on Windows soon. It needs an internet connection for its maps and for heights on routes you draw.
 
 ## Why you'll see a warning
 
@@ -14,14 +14,16 @@ The feedback builds aren't signed yet. A signed app carries a certificate that t
 
 ## macOS
 
-1. Open `Servalan-<version>-macos.dmg` and drag **Servalan** into **Applications**.
-2. Open Applications. **Right-click** (or Control-click) Servalan and choose **Open**.
-3. If macOS says Servalan **"can't be opened"** or **"cannot be checked for malicious software"**, choose **Open** if it is offered. If it isn't:
-   1. Open **System Settings**, then **Privacy & Security**.
-   2. Scroll down to the message about Servalan and choose **Open Anyway**.
-   3. Confirm with your password or Touch ID.
+Servalan needs a Mac with Apple silicon (an M-series chip) and macOS 14 Sonoma or later.
 
-After the first time, Servalan opens normally.
+1. Open `Servalan-<version>-macos-arm64.dmg` and drag **Servalan** onto **Applications**.
+2. Open **Servalan** from Applications. macOS says it can't check the app for malicious software. Choose **Done**, not "Move to Bin".
+3. Open **System Settings**, then **Privacy & Security**, and scroll down to **Security**. You'll see a line saying Servalan was blocked. Choose **Open Anyway**.
+4. Enter your password or use Touch ID, then choose **Open Anyway** again.
+
+Servalan opens. From then on it opens normally. The first time can take up to half a minute while macOS checks it.
+
+The **Open Anyway** button only appears after you've tried to open Servalan once, and it stays there for about an hour. On macOS 14 you can also right-click Servalan, choose **Open**, then **Open** again.
 
 ## Updating
 
