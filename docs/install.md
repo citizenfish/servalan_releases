@@ -17,7 +17,7 @@ Servalan needs 64-bit Windows 10 or 11. It installs just for you, so it doesn't 
 
 ## macOS
 
-Servalan needs a Mac with Apple silicon (an M-series chip) and macOS 14 Sonoma or later.
+Servalan needs a Mac with Apple silicon (an M-series chip) and macOS 15 Sequoia or later.
 
 1. Open `Servalan-<version>-macos-arm64.dmg` and drag **Servalan** onto **Applications**.
 2. Open **Servalan** from Applications. macOS says it can't check the app for malicious software. Choose **Done**, not "Move to Bin".
@@ -26,7 +26,7 @@ Servalan needs a Mac with Apple silicon (an M-series chip) and macOS 14 Sonoma o
 
 Servalan opens. From then on it opens normally. The first time can take up to half a minute while macOS checks it.
 
-The **Open Anyway** button only appears after you've tried to open Servalan once, and it stays there for about an hour. On macOS 14 you can also right-click Servalan, choose **Open**, then **Open** again.
+The **Open Anyway** button only appears after you've tried to open Servalan once, and it stays there for about an hour.
 
 ## Updating
 
